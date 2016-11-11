@@ -1,5 +1,5 @@
 {
-  "name": "leagueOfStats",
+  "name": "league-of-stats",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,23 @@
     "debug": "~2.2.0",
     "express": "~4.13.4",
     "hbs": "~4.0.0",
+    "knex": "^0.12.6",
     "morgan": "~1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pg": "^6.1.0",
     "serve-favicon": "~2.3.0"
-  }
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dillie-Z/LeagueOfStats.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dillie-Z/LeagueOfStats/issues"
+  },
+  "homepage": "https://github.com/Dillie-Z/LeagueOfStats#readme",
+  "description": ""
 }
